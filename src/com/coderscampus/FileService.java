@@ -7,7 +7,7 @@ import java.io.IOException;
 public class FileService {
 
     public User[] readDataFile() {
-        try (BufferedReader fileReader = new BufferedReader(new FileReader("data.csv"))) {
+        try (BufferedReader fileReader = new BufferedReader(new FileReader("bianconi-A3-UserLoginApp/data.csv"))) {
             User[] userList = new User[4];
             String line;
             int i = 0;
