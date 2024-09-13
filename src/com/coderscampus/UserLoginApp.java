@@ -34,7 +34,13 @@ public class UserLoginApp {
 
             }
         }
-        System.out.println("Bye!");
+        System.out.print("Thank you for reviewing my elementary efforts!");
+        System.out.print("  i am grateful to have gotten as far as i have");
+        System.out.print(" seriously!!!");
+        System.out.print("  Working on being able to walk through my lines,");
+        System.out.println("  if ever, a classmate asks me to explain (•◡•)");
+
+
     }
 }
 // REVIEWER:  why is there only 4 login attempts when assignment asks for 5
