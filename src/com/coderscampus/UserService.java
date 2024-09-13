@@ -4,10 +4,10 @@ public class UserService {
 
     private User[] userList = new User[4];
 
-    public UserService() {
-
+    public UserService() {// default constructor
+        System.out.println(userList);
         generateUsers();
-
+        System.out.println(userList);
     }
 
     private void generateUsers() {

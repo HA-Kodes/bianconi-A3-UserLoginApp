@@ -5,8 +5,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class FileService {
-private String filename = "bianconi-A3-UserLoginApp/data.csv";
-    public User[] readDataFile() {
+    private String filename = "data.csv";
+
+    public User[] readDataFile() {// function signature
         try (BufferedReader fileReader = new BufferedReader(new FileReader(filename))) {
             User[] userList = new User[4];
             String line;

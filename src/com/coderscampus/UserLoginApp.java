@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class UserLoginApp {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // special function
 
         Scanner scanner = new Scanner(System.in);
         UserService userService = new UserService();
         System.out.println("Welcome, please login...");
 
-        int loginAttempts = 0;
-        User validUser = null;
+        int loginAttempts = 0; //initializing the value
+        User validUser;
 
         while (true) {
             System.out.println("Enter your email: ");
@@ -23,7 +23,7 @@ public class UserLoginApp {
             validUser = userService.getUserCredential(username, password);
 
             if (validUser != null) {
-                System.out.println("Welcome: " + validUser.name);
+                System.out.println("Welcome: " + validUser.getName());
                 break;
             } else if (loginAttempts == 4) {
                 System.out.println("Too many invalid logins. You are now locked out.");
