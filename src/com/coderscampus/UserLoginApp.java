@@ -34,6 +34,7 @@ public class UserLoginApp {
 
             }
         }
+        System.out.println("Bye!");
     }
 }
 // REVIEWER:  why is there only 4 login attempts when assignment asks for 5
